@@ -1,4 +1,4 @@
-package com.fatherofapps.androidbase.ui.intro
+package com.weatherforecast.live.weather.ui.intro
 
 class IntroViewModel {
 }

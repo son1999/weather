@@ -1,8 +1,8 @@
-package com.fatherofapps.androidbase.data.repositories
+package com.weatherforecast.live.weather.data.repositories
 
-import com.fatherofapps.androidbase.data.services.CustomerLocalService
-import com.fatherofapps.androidbase.data.services.CustomerRemoteService
-import com.fatherofapps.androidbase.di.IoDispatcher
+import com.weatherforecast.live.weather.data.services.CustomerLocalService
+import com.weatherforecast.live.weather.data.services.CustomerRemoteService
+import com.weatherforecast.live.weather.di.IoDispatcher
 import kotlinx.coroutines.CoroutineDispatcher
 
 class CustomerRepository constructor(

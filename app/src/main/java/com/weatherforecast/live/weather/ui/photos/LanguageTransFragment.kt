@@ -1,4 +1,4 @@
-package com.fatherofapps.androidbase.ui.photos
+package com.weatherforecast.live.weather.ui.photos
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -10,9 +10,9 @@ import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.example.ap_translator.models.SingletonLanguageTrans
-import com.fatherofapps.androidbase.base.fragment.BaseFragment
-import com.fatherofapps.androidbase.databinding.FragmentLanguageTransBinding
-import com.fatherofapps.androidbase.ui.adapters.ItemLanguageTransAdapter
+import com.weatherforecast.live.weather.base.fragment.BaseFragment
+import com.weatherforecast.live.weather.databinding.FragmentLanguageTransBinding
+import com.weatherforecast.live.weather.ui.adapters.ItemLanguageTransAdapter
 
 class LanguageTransFragment: BaseFragment() {
 

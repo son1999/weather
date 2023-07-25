@@ -1,4 +1,4 @@
-package com.fatherofapps.androidbase.ui.photos
+package com.weatherforecast.live.weather.ui.photos
 
 import android.Manifest
 import android.content.Intent
@@ -19,10 +19,10 @@ import androidx.core.content.ContextCompat
 import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.ap_translator.models.DbConstants
-import com.fatherofapps.androidbase.R
-import com.fatherofapps.androidbase.base.fragment.BaseFragment
-import com.fatherofapps.androidbase.databinding.FragmentSavedPhotoBinding
-import com.fatherofapps.androidbase.ui.adapters.SavedPhotoAdapter
+import com.weatherforecast.live.weather.R
+import com.weatherforecast.live.weather.base.fragment.BaseFragment
+import com.weatherforecast.live.weather.databinding.FragmentSavedPhotoBinding
+import com.weatherforecast.live.weather.ui.adapters.SavedPhotoAdapter
 import com.tsuryo.swipeablerv.SwipeLeftRightCallback.Listener
 import java.io.File
 

@@ -1,7 +1,7 @@
-package com.fatherofapps.androidbase.common
+package com.weatherforecast.live.weather.common
 
 import android.util.Log
-import com.fatherofapps.androidbase.BuildConfig
+import com.weatherforecast.live.weather.BuildConfig
 
 object Logger {
 

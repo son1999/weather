@@ -1,4 +1,4 @@
-package com.fatherofapps.androidbase.ui.photos
+package com.weatherforecast.live.weather.ui.photos
 
 import android.graphics.BitmapFactory
 import androidx.appcompat.app.AppCompatActivity
@@ -7,8 +7,8 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.navigation.fragment.findNavController
-import com.fatherofapps.androidbase.base.fragment.BaseFragment
-import com.fatherofapps.androidbase.databinding.FragmentPhotoViewBinding
+import com.weatherforecast.live.weather.base.fragment.BaseFragment
+import com.weatherforecast.live.weather.databinding.FragmentPhotoViewBinding
 
 class PhotoViewFragment : BaseFragment() {
 

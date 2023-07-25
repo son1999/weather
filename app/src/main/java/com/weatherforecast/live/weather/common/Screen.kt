@@ -1,4 +1,4 @@
-package com.fatherofapps.androidbase.common
+package com.weatherforecast.live.weather.common
 
 import android.content.res.Resources
 

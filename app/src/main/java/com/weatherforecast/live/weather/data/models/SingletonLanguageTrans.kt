@@ -1,7 +1,7 @@
 package com.example.ap_translator.models
 
 import android.content.Context
-import com.fatherofapps.androidbase.R
+import com.weatherforecast.live.weather.R
 import com.google.mlkit.nl.translate.Translator
 
 public class SingletonLanguageTrans private constructor() {

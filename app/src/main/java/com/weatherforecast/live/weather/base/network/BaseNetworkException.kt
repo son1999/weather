@@ -1,4 +1,4 @@
-package com.fatherofapps.androidbase.base.network
+package com.weatherforecast.live.weather.base.network
 
 class BaseNetworkException (
     val responseMessage: String? = null,

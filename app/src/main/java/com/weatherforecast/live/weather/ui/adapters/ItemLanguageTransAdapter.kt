@@ -1,4 +1,4 @@
-package com.fatherofapps.androidbase.ui.adapters
+package com.weatherforecast.live.weather.ui.adapters
 
 import android.content.Context
 import android.graphics.Color
@@ -6,8 +6,8 @@ import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.example.ap_translator.models.LanguageTrans
-import com.fatherofapps.androidbase.R
-import com.fatherofapps.androidbase.databinding.ItemLangToTransBinding
+import com.weatherforecast.live.weather.R
+import com.weatherforecast.live.weather.databinding.ItemLangToTransBinding
 
 public class ItemLanguageTransAdapter(
     private var list: List<LanguageTrans>,

@@ -1,4 +1,4 @@
-package com.fatherofapps.androidbase.base.network
+package com.weatherforecast.live.weather.base.network
 
 
 abstract class BaseService {

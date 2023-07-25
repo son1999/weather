@@ -1,14 +1,14 @@
-package com.fatherofapps.androidbase.base.network
+package com.weatherforecast.live.weather.base.network
 
-import com.fatherofapps.androidbase.BuildConfig
-import com.fatherofapps.androidbase.common.DataLocal
+import com.weatherforecast.live.weather.BuildConfig
+import com.weatherforecast.live.weather.common.DataLocal
 
 object NetworkHelper {
 
     fun getDefaultHeader(): Map<String, String> {
         val headers = mutableMapOf<String, String>()
         headers["Content-Type"] = "application/json"
-        headers["Authorization"] = "Bearer ${BuildConfig.ACCESS_TOKEN}"
+//        headers["Authorization"] = "Bearer ${BuildConfig.ACCESS_TOKEN}"
         return headers.toMap()
     }
 

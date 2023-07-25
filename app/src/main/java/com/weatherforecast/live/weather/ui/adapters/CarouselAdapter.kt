@@ -1,11 +1,11 @@
-package com.fatherofapps.androidbase.ui.adapters
+package com.weatherforecast.live.weather.ui.adapters
 
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.ImageView
 import androidx.recyclerview.widget.RecyclerView
-import com.fatherofapps.androidbase.R
+import com.weatherforecast.live.weather.R
 
 class CarouselAdapter(private val items: List<Int>) :
     RecyclerView.Adapter<CarouselAdapter.CarouselViewHolder>() {

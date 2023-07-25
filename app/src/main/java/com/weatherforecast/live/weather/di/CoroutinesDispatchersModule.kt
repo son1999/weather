@@ -1,4 +1,4 @@
-package com.fatherofapps.androidbase.di
+package com.weatherforecast.live.weather.di
 
 import dagger.Module
 import dagger.Provides

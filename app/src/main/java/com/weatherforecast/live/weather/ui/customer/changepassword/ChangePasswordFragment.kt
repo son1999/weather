@@ -1,6 +1,6 @@
-package com.fatherofapps.androidbase.ui.customer.changepassword
+package com.weatherforecast.live.weather.ui.customer.changepassword
 
-import com.fatherofapps.androidbase.base.fragment.BaseFragment
+import com.weatherforecast.live.weather.base.fragment.BaseFragment
 
 class ChangePasswordFragment : BaseFragment() {
 }

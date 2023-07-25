@@ -1,10 +1,9 @@
-package com.fatherofapps.androidbase.di
+package com.weatherforecast.live.weather.di
 
-import com.fatherofapps.androidbase.BuildConfig
-import com.fatherofapps.androidbase.data.apis.*
-
+import com.weatherforecast.live.weather.data.apis.*
 import com.squareup.moshi.Moshi
 import com.squareup.moshi.kotlin.reflect.KotlinJsonAdapterFactory
+import com.weatherforecast.live.weather.BuildConfig
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn

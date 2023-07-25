@@ -1,4 +1,4 @@
-package com.fatherofapps.androidbase.data.apis
+package com.weatherforecast.live.weather.data.apis
 
 interface CustomerAPI {
 }

@@ -1,10 +1,10 @@
-package com.fatherofapps.androidbase.base.viewmodel
+package com.weatherforecast.live.weather.base.viewmodel
 
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
-import com.fatherofapps.androidbase.base.network.BaseNetworkException
-import com.fatherofapps.androidbase.base.network.NetworkErrorException
-import com.fatherofapps.androidbase.common.Event
+import com.weatherforecast.live.weather.base.network.BaseNetworkException
+import com.weatherforecast.live.weather.base.network.NetworkErrorException
+import com.weatherforecast.live.weather.common.Event
 import kotlinx.coroutines.CoroutineExceptionHandler
 import kotlinx.coroutines.Job
 

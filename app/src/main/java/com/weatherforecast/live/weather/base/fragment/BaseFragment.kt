@@ -1,13 +1,13 @@
-package com.fatherofapps.androidbase.base.fragment
+package com.weatherforecast.live.weather.base.fragment
 
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.LifecycleOwner
 import androidx.navigation.fragment.findNavController
-import com.fatherofapps.androidbase.R
-import com.fatherofapps.androidbase.base.activities.BaseActivity
-import com.fatherofapps.androidbase.base.network.BaseNetworkException
-import com.fatherofapps.androidbase.base.viewmodel.BaseViewModel
-import com.fatherofapps.androidbase.common.EventObserver
+import com.weatherforecast.live.weather.R
+import com.weatherforecast.live.weather.base.activities.BaseActivity
+import com.weatherforecast.live.weather.base.network.BaseNetworkException
+import com.weatherforecast.live.weather.base.viewmodel.BaseViewModel
+import com.weatherforecast.live.weather.common.EventObserver
 
 open class BaseFragment : Fragment() {
 

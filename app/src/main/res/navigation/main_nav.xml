@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main_nav"
+    app:startDestination="@id/searchFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.weatherforecast.live.weather.ui.home.HomeFragment"
+        android:label="HomeFragment" />
+    <fragment
+        android:id="@+id/searchFragment"
+        android:name="com.weatherforecast.live.weather.ui.search.SearchFragment"
+        android:label="SearchFragment" />
+    <fragment
+        android:id="@+id/savedPhotoFragment"
+        android:name="com.weatherforecast.live.weather.ui.photos.SavedPhotoFragment"
+        android:label="SavedPhotoFragment" />
+    <fragment
+        android:id="@+id/languageTransFragment"
+        android:name="com.weatherforecast.live.weather.ui.photos.LanguageTransFragment"
+        android:label="LanguageTransFragment" />
+    <fragment
+        android:id="@+id/photoViewFragment"
+        android:name="com.weatherforecast.live.weather.ui.photos.PhotoViewFragment"
+        android:label="PhotoViewFragment" />
+
+    <fragment
+        android:id="@+id/multiLangFragment"
+        android:name="com.weatherforecast.live.weather.ui.multi_lang.MultiLangFragment"
+        android:label="MultiLangFragment"/>
+
+    <fragment
+        android:id="@+id/introFragment"
+        android:name="com.weatherforecast.live.weather.ui.intro.IntroFragment"
+        android:label="IntroFragment"/>
+    <fragment
+        android:id="@+id/permissionFragment"
+        android:name="com.weatherforecast.live.weather.ui.permission.PermissionFragment"
+        android:label="PermissionFragment"/>
+</navigation>

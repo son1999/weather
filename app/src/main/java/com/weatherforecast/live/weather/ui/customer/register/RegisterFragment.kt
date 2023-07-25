@@ -1,6 +1,6 @@
-package com.fatherofapps.androidbase.ui.customer.register
+package com.weatherforecast.live.weather.ui.customer.register
 
-import com.fatherofapps.androidbase.base.fragment.BaseFragment
+import com.weatherforecast.live.weather.base.fragment.BaseFragment
 
 class RegisterFragment : BaseFragment() {
 }

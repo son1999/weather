@@ -1,6 +1,6 @@
-package com.fatherofapps.androidbase.data.services
+package com.weatherforecast.live.weather.data.services
 
-import com.fatherofapps.androidbase.data.apis.CustomerAPI
+import com.weatherforecast.live.weather.data.apis.CustomerAPI
 import javax.inject.Inject
 
 class CustomerRemoteService @Inject constructor(private val customerAPI: CustomerAPI) {

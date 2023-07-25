@@ -1,4 +1,4 @@
-package com.fatherofapps.androidbase.base.dialogs
+package com.weatherforecast.live.weather.base.dialogs
 
 import android.app.Dialog
 import android.content.Context
@@ -7,7 +7,7 @@ import android.view.Window
 import android.widget.TextView
 import androidx.appcompat.widget.AppCompatButton
 import androidx.core.text.HtmlCompat
-import com.fatherofapps.androidbase.R
+import com.weatherforecast.live.weather.R
 
 class NotifyDialog (
     context: Context,

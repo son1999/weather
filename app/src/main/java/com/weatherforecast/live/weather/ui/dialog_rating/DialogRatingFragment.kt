@@ -1,4 +1,4 @@
-package com.fatherofapps.androidbase.ui.dialog_rating
+package com.weatherforecast.live.weather.ui.dialog_rating
 
 import android.graphics.Typeface
 import android.os.Bundle
@@ -6,8 +6,8 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.DialogFragment
-import com.fatherofapps.androidbase.R
-import com.fatherofapps.androidbase.databinding.FragmentDialogRatingBinding
+import com.weatherforecast.live.weather.R
+import com.weatherforecast.live.weather.databinding.FragmentDialogRatingBinding
 import dagger.hilt.android.AndroidEntryPoint
 
 @AndroidEntryPoint

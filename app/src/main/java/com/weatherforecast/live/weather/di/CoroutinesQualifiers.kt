@@ -1,4 +1,4 @@
-package com.fatherofapps.androidbase.di
+package com.weatherforecast.live.weather.di
 
 import javax.inject.Qualifier
 

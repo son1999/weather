@@ -1,6 +1,6 @@
-package com.fatherofapps.androidbase.ui.customer.myaccount
+package com.weatherforecast.live.weather.ui.customer.myaccount
 
-import com.fatherofapps.androidbase.base.viewmodel.BaseViewModel
+import com.weatherforecast.live.weather.base.viewmodel.BaseViewModel
 import javax.inject.Inject
 
 class MyAccountViewModel @Inject constructor() : BaseViewModel() {

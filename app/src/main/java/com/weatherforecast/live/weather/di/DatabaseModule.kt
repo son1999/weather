@@ -1,11 +1,11 @@
-package com.fatherofapps.androidbase.di
+package com.weatherforecast.live.weather.di
 
 import android.content.Context
 import android.content.SharedPreferences
 import androidx.room.Room
-import com.fatherofapps.androidbase.common.AppSharePreference
-import com.fatherofapps.androidbase.data.database.AppDatabase
-import com.fatherofapps.androidbase.data.database.daos.CustomerDao
+import com.weatherforecast.live.weather.common.AppSharePreference
+import com.weatherforecast.live.weather.data.database.AppDatabase
+import com.weatherforecast.live.weather.data.database.daos.CustomerDao
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn

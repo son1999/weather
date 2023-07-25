@@ -1,8 +1,8 @@
-package com.fatherofapps.androidbase.data.database.daos
+package com.weatherforecast.live.weather.data.database.daos
 
 import androidx.room.Dao
 import androidx.room.Query
-import com.fatherofapps.androidbase.data.database.entities.CustomerEntity
+import com.weatherforecast.live.weather.data.database.entities.CustomerEntity
 
 @Dao
 interface CustomerDao {

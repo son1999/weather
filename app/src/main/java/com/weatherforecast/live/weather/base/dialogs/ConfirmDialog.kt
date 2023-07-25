@@ -1,4 +1,4 @@
-package com.fatherofapps.androidbase.base.dialogs
+package com.weatherforecast.live.weather.base.dialogs
 
 import android.app.Dialog
 import android.content.Context
@@ -6,7 +6,7 @@ import android.os.Bundle
 import android.view.View
 import android.widget.Button
 import android.widget.TextView
-import com.fatherofapps.androidbase.R
+import com.weatherforecast.live.weather.R
 
 class ConfirmDialog constructor(
     context: Context,

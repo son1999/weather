@@ -1,11 +1,11 @@
-package com.fatherofapps.androidbase.activities
+package com.weatherforecast.live.weather.activities
 import android.content.Intent
 import android.os.Bundle
 import android.util.Log
 import android.widget.ImageView
 import androidx.appcompat.app.AppCompatActivity
-import com.fatherofapps.androidbase.R
-import com.fatherofapps.androidbase.activities.MainActivity
+import com.weatherforecast.live.weather.R
+import com.weatherforecast.live.weather.activities.MainActivity
 import dagger.hilt.android.AndroidEntryPoint
 
 @AndroidEntryPoint

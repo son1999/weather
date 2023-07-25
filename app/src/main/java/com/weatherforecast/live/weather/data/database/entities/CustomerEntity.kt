@@ -1,4 +1,4 @@
-package com.fatherofapps.androidbase.data.database.entities
+package com.weatherforecast.live.weather.data.database.entities
 
 import androidx.room.Entity
 import androidx.room.PrimaryKey

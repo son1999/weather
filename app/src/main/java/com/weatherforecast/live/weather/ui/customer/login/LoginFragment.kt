@@ -1,6 +1,6 @@
-package com.fatherofapps.androidbase.ui.customer.login
+package com.weatherforecast.live.weather.ui.customer.login
 
-import com.fatherofapps.androidbase.base.fragment.BaseFragment
+import com.weatherforecast.live.weather.base.fragment.BaseFragment
 
 class LoginFragment : BaseFragment() {
 }

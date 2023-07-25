@@ -1,7 +1,7 @@
-package com.fatherofapps.androidbase.ui.home
+package com.weatherforecast.live.weather.ui.home
 
 import android.graphics.Bitmap
-import com.fatherofapps.androidbase.base.viewmodel.BaseViewModel
+import com.weatherforecast.live.weather.base.viewmodel.BaseViewModel
 import javax.inject.Inject
 
 class HomeViewModel @Inject constructor() : BaseViewModel() {

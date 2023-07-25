@@ -1,4 +1,4 @@
-package com.fatherofapps.androidbase.ui.intro
+package com.weatherforecast.live.weather.ui.intro
 
 import android.os.Bundle
 import android.util.Log
@@ -6,11 +6,11 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.viewpager2.widget.ViewPager2
-import com.fatherofapps.androidbase.R
-import com.fatherofapps.androidbase.base.fragment.BaseFragment
-import com.fatherofapps.androidbase.databinding.FragmentIntroBinding
-import com.fatherofapps.androidbase.databinding.FragmentMultiLangBinding
-import com.fatherofapps.androidbase.ui.adapters.CarouselAdapter
+import com.weatherforecast.live.weather.R
+import com.weatherforecast.live.weather.base.fragment.BaseFragment
+import com.weatherforecast.live.weather.databinding.FragmentIntroBinding
+import com.weatherforecast.live.weather.databinding.FragmentMultiLangBinding
+import com.weatherforecast.live.weather.ui.adapters.CarouselAdapter
 import dagger.hilt.android.AndroidEntryPoint
 
 @AndroidEntryPoint

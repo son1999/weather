@@ -7,6 +7,10 @@ plugins {
     id 'dagger.hilt.android.plugin'
 }
 
+def apikeyPropertiesFile = rootProject.file("apikey.properties")
+def apikeyProperties = new Properties()
+apikeyProperties.load(new FileInputStream(apikeyPropertiesFile))
+
 android {
     buildFeatures{
         dataBinding = true
@@ -17,8 +21,11 @@ android {
     defaultConfig {
         applicationId "com.weatherforecast.live.weather"
         minSdkVersion 29
+        targetSdkVersion 32
         versionCode 1
         versionName "1.0"
+
+        testInstrumentationRunner "com.weatherforecast.live.weather.CustomTestRunner"
     }
 
 
@@ -49,6 +56,24 @@ android {
     }
 
     flavorDimensions "default"
+    productFlavors {
+
+        dev {
+            buildConfigField("String", "BASE_URL", apikeyProperties['BASE_URL_DEV'])
+            buildConfigField("String", "ACCESS_TOKEN", apikeyProperties['ACCESS_TOKEN_DEV'])
+        }
+
+        staging {
+            buildConfigField("String", "BASE_URL", apikeyProperties['BASE_URL_STAGING'])
+            buildConfigField("String", "ACCESS_TOKEN", apikeyProperties['ACCESS_TOKEN_STAGING'])
+        }
+
+        live {
+            buildConfigField("String", "BASE_URL", apikeyProperties['BASE_URL_LIVE'])
+            buildConfigField("String", "ACCESS_TOKEN", apikeyProperties['ACCESS_TOKEN_LIVE'])
+        }
+
+    }
 }
 
 dependencies {

@@ -1,11 +1,11 @@
-package com.fatherofapps.androidbase.base.activities
+package com.weatherforecast.live.weather.base.activities
 
 import android.view.Gravity
 import android.view.ViewGroup
 import androidx.appcompat.app.AppCompatActivity
-import com.fatherofapps.androidbase.base.dialogs.ConfirmDialog
-import com.fatherofapps.androidbase.base.dialogs.ErrorDialog
-import com.fatherofapps.androidbase.base.dialogs.NotifyDialog
+import com.weatherforecast.live.weather.base.dialogs.ConfirmDialog
+import com.weatherforecast.live.weather.base.dialogs.ErrorDialog
+import com.weatherforecast.live.weather.base.dialogs.NotifyDialog
 
 open class BaseActivity : AppCompatActivity() {
 

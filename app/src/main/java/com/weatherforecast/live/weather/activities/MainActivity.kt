@@ -1,4 +1,4 @@
-package com.fatherofapps.androidbase.activities
+package com.weatherforecast.live.weather.activities
 
 import android.content.SharedPreferences
 import android.os.Bundle
@@ -8,9 +8,9 @@ import android.widget.FrameLayout
 import androidx.navigation.NavController
 import androidx.navigation.findNavController
 import androidx.navigation.fragment.NavHostFragment
-import com.fatherofapps.androidbase.R
-import com.fatherofapps.androidbase.base.activities.BaseActivity
-import com.fatherofapps.androidbase.common.AppSharePreference
+import com.weatherforecast.live.weather.R
+import com.weatherforecast.live.weather.base.activities.BaseActivity
+import com.weatherforecast.live.weather.common.AppSharePreference
 import dagger.hilt.android.AndroidEntryPoint
 import javax.inject.Inject
 

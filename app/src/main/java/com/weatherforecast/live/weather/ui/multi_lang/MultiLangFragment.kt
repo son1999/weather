@@ -1,4 +1,4 @@
-package com.fatherofapps.androidbase.ui.multi_lang
+package com.weatherforecast.live.weather.ui.multi_lang
 
 import android.graphics.Typeface
 import android.os.Bundle
@@ -6,11 +6,11 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.fatherofapps.androidbase.R
-import com.fatherofapps.androidbase.base.fragment.BaseFragment
-import com.fatherofapps.androidbase.databinding.FragmentMultiLangBinding
-import com.fatherofapps.androidbase.ui.adapters.ItemMultiLangAdapter
-import com.fatherofapps.androidbase.ui.dialog_rating.DialogRatingFragment
+import com.weatherforecast.live.weather.R
+import com.weatherforecast.live.weather.base.fragment.BaseFragment
+import com.weatherforecast.live.weather.databinding.FragmentMultiLangBinding
+import com.weatherforecast.live.weather.ui.adapters.ItemMultiLangAdapter
+import com.weatherforecast.live.weather.ui.dialog_rating.DialogRatingFragment
 import dagger.hilt.android.AndroidEntryPoint
 
 @AndroidEntryPoint
